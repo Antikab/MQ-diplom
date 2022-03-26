@@ -3,18 +3,19 @@
 	margin: 0;
 	box-sizing: border-box;
 	list-style-type: none;
+	outline: 1px solid darkred;
 }
 
 @font-face {
 	font-family: "OpenSans";
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+	src: url("../fonts/OpenSans-Regular.ttf");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "OpenSans";
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+	src: url("../fonts/OpenSans-Bold.ttf");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -418,7 +419,7 @@ body {
 
 	border: none;
 	background-color: #b59f5b;
-	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+	background-image: url("../svg/search.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 20px 20px;
@@ -592,29 +593,29 @@ input.subscribe-field:focus {
 }
 
 .social-icon-twitter {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+	background-image: url("../svg/004-twitter.svg");
 	background-size: 25px;
 	background-position: right 1% bottom 50%;
 }
 
 .social-icon-pinterest {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+	background-image: url("../svg/001-pinterest.svg");
 	background-position: 70% 50%;
 }
 
 .social-icon-facebook {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+	background-image: url("../svg/002-facebook-logo.svg");
 	background-position: 40% 50%;
 }
 
 .social-icon-instagram {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+	background-image: url("../svg/005-instagram.svg");
 	background-size: 20px;
 	background-position: 0 60%;
 }
 
 .social-icon-tumblr {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+	background-image: url("../svg/003-tumblr.svg");
 	background-position: 0 60%;
 }
 
