@@ -1150,7 +1150,7 @@ textarea.popup-text-field:focus {
 
 	.header {
 		min-width: 300px;
-		max-width: 640px;
+		max-width: 100%;
 		padding-top: 31px;
 		padding-bottom: 210px;
 
@@ -1398,12 +1398,6 @@ textarea.popup-text-field:focus {
 		padding: 15px;
 		margin-top: 4px;
 	}
-
-	.trend:nth-child(1),
-	.trend:nth-child(2) {
-		margin-top: 0;
-	}
-
 }
 
 @media (min-width: 641px) and (max-width: 1199px), 
@@ -1478,11 +1472,6 @@ textarea.popup-text-field:focus {
 		width: calc(50% - 2px);
 		padding: 20px 20px 14px;
 		margin-top: 4px;
-	}
-
-	.trend:nth-child(1),
-	.trend:nth-child(2) {
-		margin-top: 0;
 	}
 
 	.trend-content {
@@ -1581,10 +1570,9 @@ textarea.popup-text-field:focus {
 	}
 }
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape), {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
 	.trend {
 		width: calc(25% - 5px);
-		margin-top: 0;
 	}
 }
 
